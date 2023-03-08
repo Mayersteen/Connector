@@ -20,6 +20,8 @@
         - [Filesystem](common/configuration/configuration-filesystem/)
     - Events
         - [Cloud HTTP](common/events/events-cloud-http/)
+    - Google Cloud Platform
+        - [Google Cloud Storage](common/gcp/gcp-gcs/) 
     - HTTP
         - [Jersey](common/http/jersey-core/)
         - [Jersey Micrometer](common/http/jersey-micrometer/)
@@ -58,6 +60,7 @@
     - [HTTP Receiver](control-plane/transfer-pull-http-receiver/)
     - Provision
         - [Blob](control-plane/provision/provision-blob/)
+        - [Google Cloud Storage](control-plane/provision/provision-gcs/)
         - [HTTP](control-plane/provision/provision-http/)
         - [S3](control-plane/provision/provision-aws-s3/)
     - Store
@@ -79,6 +82,7 @@
     - [API](data-plane/data-plane-api/)
     - [Azure Storage](data-plane/data-plane-azure-storage/)
     - [Data Factory](data-plane/data-plane-azure-data-factory/)
+    - [Google Cloud Storage](data-plane/data-plane-google-storage/)
     - [HTTP](data-plane/data-plane-http/)
     - [S3](data-plane/data-plane-aws-s3/)
     - [Tests](data-plane/data-plane-integration-tests/)
